@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    font-family: 'Young Serif', serif;
+    font-family: "Outfit", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main{
+    background-color: hsl(30, 54%, 90%);
+    height: 100%;
+    width: 70em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    background-color: #fff;
+    padding: 2em;
+    height: 98%;
+    width: 30em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.heading{
+    margin: 1em 0;
+}
+
+h1{
+    font-family: 'Young Serif', serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+.heading p{
+    font-size: 0.6em;
+}
+
+li{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 0.8em;
+
+}
+
+.timing{
+    background-color: hsl(330, 100%, 98%);
+    width: 26em;
+    line-height: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: start;
+
+
+}
+
+h3{
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    font-size: 0.8em;
+    padding-left: 1em;
+    color: hsl(332, 51%, 32%);
+}
+.timing li{
+    padding-left: 2em;
+    line-height: 1.8em;
+    list-style-position: inside;
+    font-size: 0.5em;
+}
+
+.dark{
+    font-weight: bold;
+}
+
+.ingredients{
+    width: 26em;
+    line-height: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 1em;
+
+}
+.ingredients li{
+    list-style-position: inside;
+    padding-left: 1em;
+    line-height: 1.8em;
+    font-size: 0.5em;
+    
+    
+}
+
+.ingredients li::marker{
+    color: hsl(332, 51%, 32%);
+    font-weight: bold;
+}
+
+h2{
+    font-family: "Outfit", sans-serif;
+    padding-bottom: 0.5em;
+    font-size: 1.5em;
+    color: hsl(14, 45%, 36%);
+}
+.instructions li{
+    list-style-position: inside;
+    list-style-type: decimal;
+    line-height: 1.8em;
+    font-size: 0.6em;
+}
+
+.instructions li::marker{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+.nutrition {
+    width: 26em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 1em;
+    
+    
+
+}
+.nutrition p{
+    font-size: 0.6em;
+    margin-bottom: 1em;
+}
+
+.nutrients{
+    width: 18em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.color{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+
+
+
